@@ -1,0 +1,33 @@
+p {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+a {
+    font-size: 18px;
+    text-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+}
+h1 {
+    padding-top: 20px;
+    margin-bottom: 80px;
+}
+h2 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 0px;
+    text-shadow: 0px 0px 5px rgb(0 0 0 / 15%);
+}
+body {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+main {
+    width: 80vw;
+}

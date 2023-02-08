@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+ErrorDocument 401 https://noasecond.com/errorPages/401.html
+ErrorDocument 402 https://noasecond.com/errorPages/402.html
+ErrorDocument 403 https://noasecond.com/errorPages/403.html
+ErrorDocument 404 https://noasecond.com/errorPages/404.html
+ErrorDocument 500 https://noasecond.com/errorPages/500.html
+ErrorDocument 502 https://noasecond.com/errorPages/502.html
